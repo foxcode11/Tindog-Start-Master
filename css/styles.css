@@ -1,0 +1,112 @@
+#title{
+    background-color: #ff4c68;
+    font-family: 'Ubuntu', sans-serif; 
+    color: white; 
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Monserrat',sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Monserrat',sans-serif;
+    font-weight: bolder;
+
+}
+p{
+    color: grey;
+}
+
+.container-fluid{
+    padding: 3% 10%;
+
+}
+.navbar-brand{
+    
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.Title-image{
+    transform: rotate(25deg);
+    width: 60%;
+
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+ 
+}
+.Feature-box{
+    text-align: center;
+    padding: 7%;
+}
+.icon{
+    margin: 1rem;
+}
+.icon:hover{
+    background-color: #ff4c68; 
+}
+#testimonials{
+    background-color: #ef8172;
+    text-align:center;
+    color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width : 10%;
+    margin: 20px;
+}
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.card{
+    text-align: center;
+    padding: 0;
+    width: 30%;
+    margin: 5px 15px;
+    line-height: 1;
+    
+}
+#pricing{
+    text-align: center;
+}
+.card-deck{
+    
+    padding: 3% 7%;
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: #ffff;
+    text-align: center;
+
+}
+.cta-heading{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+@media (max-width:990px){
+    #title{
+        text-align: center;
+    }
+    .Title-image{
+        transform: rotate(0)
+    
+    }
+}
